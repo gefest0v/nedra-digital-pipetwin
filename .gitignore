@@ -1,0 +1,27 @@
+# Local Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Generated training artifacts
+catboost_info/
+artifacts/
+outputs/
+output/
+processed/
+training_runs/
+final_runs/
+*.log
+
+# Local editor settings
+.vscode/
+
+# Local secrets
+.env
+.env.*
+!.env.example
