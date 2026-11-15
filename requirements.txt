@@ -1,0 +1,48 @@
+# Nedra Digital PipeTwin - advanced stack
+# Target: CPython 3.11, 64-bit; Windows or Google Colab with matching Python.
+# Direct dependencies are pinned. This is not a complete transitive lock file.
+
+# Tables, numerical methods, Parquet
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.15.3
+polars==1.30.0
+pyarrow==20.0.0
+
+# Baselines and gradient boosting
+scikit-learn==1.6.1
+catboost==1.2.8
+lightgbm==4.6.0
+xgboost==3.0.2
+
+# Time-series features and degradation models
+tsfresh==0.21.0
+statsmodels==0.14.4
+
+# Optimization, explanations, prediction intervals
+optuna==4.3.0
+shap==0.47.2
+MAPIE==1.0.1
+
+# Neural models: LSTM, 1D-CNN, Transformer; CPU execution supported
+torch==2.7.1
+
+# Static and interactive plots
+matplotlib==3.10.3
+seaborn==0.13.2
+plotly==6.1.2
+
+# Notebook environment, including VS Code notebooks
+jupyterlab==4.4.3
+ipykernel==6.29.5
+ipython==9.18.1
+ipywidgets==8.1.7
+nbformat==5.10.4
+nbclient==0.11.0
+
+# Progress, serialization, configuration
+tqdm==4.67.1
+joblib==1.5.1
+cloudpickle==3.1.2
+threadpoolctl==3.8.0
+PyYAML==6.0.2
